@@ -15,6 +15,10 @@
     font-size: 16px;
   }
 
+  h5 {
+    font-size: 14px;
+  }
+
   p {
     font-size: 12px;
   }
@@ -166,6 +170,10 @@
     margin-top: 20px;
   }
 
+  textarea.form-control {
+    height: 150px;
+  }
+
   /*Contact*/
 
   /*-----------------------------About Css-----------------------------*/
@@ -198,6 +206,33 @@
   }
 
   /*-----------------------------Project Css-----------------------------*/
+
+  /*-----------------------------Blog 
+    item Css-----------------------------*/
+  .share ul li {
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .share ul li a {
+    margin-top: 30px;
+  }
+
+  .blog_img_overlay {
+    padding: 5px;
+  }
+
+  .blog_img_overlay p {
+    font-size: 12px;
+  }
+
+  .blog_categories {
+    margin-bottom: 20px;
+  }
+
+  /*-----------------------------Blog 
+    item Css-----------------------------*/
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -329,6 +364,18 @@
   }
 
   /*-----------------------------About Css-----------------------------*/
+
+  .share ul li a {
+    margin-top: 30px;
+  }
+
+  .blog_img_overlay {
+    padding: 5px;
+  }
+
+  .blog_categories {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -455,6 +502,10 @@
   }
 
   /*-----------------------------About Css-----------------------------*/
+  .blog_categories {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -473,4 +524,17 @@
   }
 
   /*Banner*/
+  .share h5 {
+    margin-right: 10px;
+  }
+
+  .share ul li {
+    padding: 10px 12px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .share ul li a {
+    margin-top: 0px;
+  }
 }

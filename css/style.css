@@ -405,7 +405,7 @@ Client Part End
 /*================================================================
 Blog Part Start
 ================================================================*/
-.blog_item img {
+.blog_slider .blog_item img {
   width: 50%;
 }
 
@@ -544,8 +544,14 @@ Footer Part End
 
 /*------------------------------------------------------------------------About us Css------------------------------------------------------------------------*/
 .page_breadcrumb {
-  padding: 10px 0px;
+  height: 40px;
   background-color: #22a7f0;
+}
+
+.breadcrumb_title {
+  color: #ffff;
+  float: left;
+  padding-top: 8px;
 }
 
 .breadcrumb {
@@ -553,12 +559,10 @@ Footer Part End
   background-color: transparent;
   padding: 0;
   margin: 0;
-  margin-top: 4px;
+  padding-top: 8px;
 }
 
-.breadcrumb_title h4 {
-  color: #ffff;
-}
+
 
 .breadcrumb-item {
   color: #fff;
@@ -899,9 +903,14 @@ textarea.form-control {
   color: #000;
 }
 
+.recent_post_item img {
+  width: 48%;
+}
+
 .recent_post_item p {
   font-size: 13px;
-  width: 80%;
+  width: 48%;
+  margin-left: 10px;
 }
 
 .recent_post_item p span {
@@ -985,3 +994,23 @@ textarea.form-control {
 }
 
 /*------------------------------------------------------------------------blog single page Css------------------------------------------------------------------------*/
+
+/*Scrolltop Button*/
+
+#topbtn {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 40px;
+  width: 40px;
+  background: #ff0000;
+  border: 0;
+  box-shadow: 0 0 3px #000;
+  z-index: 999;
+  display: none;
+}
+
+#topbtn i {
+  font-size: 25px;
+  color: #fff;
+}
