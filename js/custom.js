@@ -213,6 +213,21 @@ $(document).ready(function () {
     },
   });
   /*Client Slider End*/
+  //Top Button
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $('#topbtn').fadeIn();
+    } else {
+      $('#topbtn').fadeOut();
+    }
+  });
+
+  $('#topbtn').click(function () {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 500);
+  });
   //MixitUp
   var mixer = mixitup('.our_project');
+
 });
